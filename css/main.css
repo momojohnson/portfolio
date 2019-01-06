@@ -1,0 +1,71 @@
+/* ------------------- --------
+  Navbar Styling Starts Here
+  -----------------------------
+*/
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.9;
+
+}
+
+
+nav li a {
+  color: #fff !important;
+  font-family: 'PT Mono', monospace !important;
+  font-size: 1.5rem;
+  border-bottom: 0;
+}
+
+nav .navbar-brand {
+  font-family: 'Cedarville Cursive', cursive !important;
+  font-size: 2rem;
+}
+
+
+nav li a:link,
+nav li a:visited {
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.3s ease-in;
+}
+
+nav li a:hover,
+nav li.active {
+  border-bottom: 3px solid #e67e22;
+}
+
+/* -------------------------------
+  Main Header Styling
+  -------------------------------- */
+#main-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/home.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#main-header img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+
+}
+
+.port-link a:hover {
+  text-decoration: none;
+  color: #e67e22 !important;
+}
+
+.port-link a {
+  font-size: 1.3rem !important;
+  font-family: Lato sans-serif;
+}
+
+#main-header p {
+  font-size: 1rem !important;
+  font-family: 'Open Sans', sans-serif;
+}
+#main-header h1 {
+  font-size: 3.5rem;
+}
